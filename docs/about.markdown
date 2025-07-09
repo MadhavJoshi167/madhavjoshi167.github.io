@@ -4,15 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am Madhav, from India. Mechanical engineer by study but passionate about robotics, automation and hardware engineering. All of these require multi faceted views and knowledge from computer science, electrical and electronics and mechanical engineering. Sustainability, AI, finance, health and exercise are some other topics I am interested in. I know it is a lot. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Though these are the topics that come to my mind at first, but sports, art, music, travelling and trekking are also nowhere further. I love to talk to people who passionately do what they do, irrespective of the domain of work.
