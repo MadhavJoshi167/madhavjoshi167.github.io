@@ -10,11 +10,7 @@ summary: "Having my own blog is something I've always been very excited about. I
 
 {% include toc.html %}
 
-I always wanted to have a blog - being able to share insights I gained during projects, tutorials for setting up my tech or even general learnings from my daily work life is something I've always been excited about.
-
-When I finally decided to get started and set up a blog, I was overwhelmed with the many options there are. Sure, there's the obvious, big blogging providers such as [WordPress](https://wordpress.com/) or [SquareSpace](https://www.squarespace.com/) - but all of those come with limitations, and I definitely wasn't ready to pay the full "expert subscription fee" for those providers just yet.
-
-And then I heard about [Github Pages Blogs](https://pages.github.com/).
+This is about [Github Pages Blogs](https://pages.github.com/), taken from [EmmaTheEngg](https://emmatheeng.github.io/)
 
 ## How does Blogging with GithubPages Work?
 Github Pages is a **free static site hosting service**, that takes the content to host directly from your Github repository. With Github Pages, you can either implement your own website from scratch _or_ you can use static website generators such as [Jekyll](https://jekyllrb.com/docs/) to generate the site for you (_this is what I decided to do :-)_).
