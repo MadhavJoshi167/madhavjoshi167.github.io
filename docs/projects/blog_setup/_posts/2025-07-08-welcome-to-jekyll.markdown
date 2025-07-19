@@ -2,35 +2,35 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2025-07-08 17:40:34 +0530
+categories: blog_setup
 tags: github_pages jekyll minima
 image: /projects/blog_setup/assets/img/gui_img.png
 comments: true
-summary: "Having my own blog is something I've always been very excited about. In this post I'm sharing why I decided to host my blog using Github Pages and Jekyll, and how you too can set up your own (free!) blog with those tools."
+summary: "Having a space to collect, organise and share my thoughts is what drove me to start writing my own blog. In this post I'll be sharing how I setup my own (free!) blog with github pages and tools."
 ---
 
 {% include toc.html %}
 
-This is about [Github Pages Blogs](https://pages.github.com/), taken from [EmmaTheEngg](https://emmatheeng.github.io/)
+This is about [Github Pages Blogs](https://pages.github.com/), inspired from [EmmaTheEng](https://emmatheeng.github.io/)
 
 ## How does Blogging with GithubPages Work?
-Github Pages is a **free static site hosting service**, that takes the content to host directly from your Github repository. With Github Pages, you can either implement your own website from scratch _or_ you can use static website generators such as [Jekyll](https://jekyllrb.com/docs/) to generate the site for you (_this is what I decided to do :-)_).
+Github Pages is a **free static site hosting service**, that takes the content to host directly from your Github repository. With Github Pages, you can either implement your own website from scratch _or_ you can use static website generators such as [Jekyll](https://jekyllrb.com/docs/) to generate the site for you (_this is what I decided to do :-)_, and luckily [EmmaTheEng](https://emmatheeng.github.io/) had already started making such a blog.).
 
 Organising and hosting a blog with Jekyll and GithubPages comes with a bunch of **advantages**:
 - getting started with your blog is super **quick** - and it **doesn't cost anything**!
 - with Jekyll you can pick from a range of **[free, open source templates](https://jekyllthemes.io/free)** for your blog - and you can very easily **customise each page** to match your own blogging style
-- there's a lot of **ready-to-use plugins** for Jekyll, for example for [post comments in Disqus](https://disqus.com/admin/install/platforms/jekyll/) or integration with [Google Analytics](https://analytics.google.com/)
 
-For me, as a software engineer, using GithubPages for blogging sounded like the perfect opportunity to **share my story while simultaniously learning about new frameworks** (such as [Jekyll](https://jekyllrb.com/) and [Liquid](https://shopify.github.io/liquid/)) as well as brushing up my HTML, CSS and JS skills. I decided to go with a very basic Jekyll template called [minima](https://github.com/jekyll/minima) and then customised it piece by piece.
+For me, as an engineer, using GithubPages for blogging sounded like the perfect opportunity to **share my journey while simultaniously documenting my progress** on the go. I decided to go with a very basic Jekyll template called [minima](https://github.com/jekyll/minima) and then referred [EmmaTheEng](https://emmatheeng.github.io/) to quickly get started.
 
 ## How do I get started?
-There's a lot of great tutorials out there for how to set up your blog with Github Pages - I'd recommend checking out the [official Github documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) in case of any errors.
+I checked out the [official Github documentation](https://pages.github.com/) for setting up my first "Hello World!" website. Then referred its [jekyll website guide](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) to setup a basic local environment to start developing my own website. I started looking for people who have already tried a similar approach and soon I found [EmmaTheEng](https://emmatheeng.github.io/) blog which was very close to something I had envisioned.
 
 Here's the step's that I followed:
 
 ### 1. Find the right place for your Github Blog Repository
-The hosting URL of your blog depends on where the repository containing the static sources for your blog lives. There's basically three options:
+The hosting URL of your blog depends on where the repository containing the static sources for your blog lives as taken from again [EmmaTheEng](https://emmatheeng.github.io/). There's basically three options:
 
-- **Personal Blog**: If you want a blog for **your Github user**, you'll need to create a new repository called `<github_username>.github.io`. The blog URL will then also be `<github_username>.github.io` - you can only have one "user blog" per Github user.
+- **Personal Blog**: If you want a blog for **your Github user**, you'll need to create a new repository called `<github_username>.github.io`. The blog URL will then also be `<github_username>.github.io` - you can only have one "user blog" per Github user. This is what I did.
 
 - **Project Blog**: If you already have a Github repository you want to blog about, you can simply push your static blogging sources to a subdirectory in that repository. The blogging URL will then be `<github_username>.github.io/<repository_name>`.
 
@@ -39,11 +39,11 @@ The hosting URL of your blog depends on where the repository containing the stat
 ### 2. Initialise your Repository
 Once you've decided on the right location for your blogging repository, it's time to actually set up and initialise that repo :-)
 
-As said before I wanted to use this blog as an opportunity to learn new stuff, so I decided to go with the full local set up - including installing Ruby, Bundler & Co. You can find the full official instructions for this on the [official Github documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll).
+As said before I wanted to quickly setup the blog and update frequently, so I decided to go with the full local set up - including installing Ruby, Bundler & Co. You can find the full official instructions for this on the [official Github documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll).
 
-Having the full local setup might seem tedious, but it's going to come in very handy later on once you want to customise and experiment with the different templates. If you want to go with a more lightweight, hands-off blog setup, you can follow templates such as [this one](https://github.com/skills/github-pages) that don't even require a local check-out of your repository.
+Having the full local setup might seem tedious, but it's going to come in very handy later on once you want to customise and experiment with the different templates.  
 
-In any case, after the initial set up you'll end up with a repository structure similar to this one:
+After the initial set up you'll end up with a repository structure similar to this one:
 
 ```
 ├── _includes                     # this is where you'll configure additional plugins for your blog, such as google analytics
@@ -85,10 +85,5 @@ This is my very first post - I'm currently setting up this blog,
 more content to come soon. Watch this space! :-)
 ```
 
-In addition to writing posts, you might also want to change the style and format of your blog - for example adjusting the colours and fonts to your personal style, or adding features such as comments or category pages. Check out some free-to-use, open source Jekyll templates [here](https://jekyllthemes.io/free) and keep an eye out for additional blog posts [here](/projects/blog_setup.html) to learn more about how I customised my own blog.
-
-
 ## Conclusion
-Setting up my Github Pages Jekyll blog was really easy, and seeing my own website hosted on [emmatheeng.github.io](emmatheeng.github.io) after just a couple of minutes of coding felt amazing. The real exciting work however has just started - adjusting my blog's look & feel to my liking and finally producing content. Check out the [blog setup project page](/projects/blog_setup.html) for more tutorials about setting up and customising your Jekyll blog!
-
-**Let me know in the comments in case there's anything you've learned, missed, or anything additional you'd like to know. I'm looking forward to hearing from you :-)**
+Setting up my Github Pages Jekyll blog was really easy, and seeing my own website hosted on [madhavjoshi167.github.io](madhavjoshi167.github.io) after just a couple of minutes of coding felt amazing. The real exciting work however has just started - adjusting my blog's look & feel to my liking and finally producing content. Do contact in case you have any suggestions for me on my email.

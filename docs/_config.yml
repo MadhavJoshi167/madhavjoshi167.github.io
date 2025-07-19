@@ -29,13 +29,17 @@ github_username:  madhavjoshi167
 show_excerpts: true
 
 header_pages:
-  - projects/index.html  
+  - projects/index_projects.html  
+  - life/index_life.html
   - about.markdown
 
 permalink: /:categories/:title:output_ext
 
 collections:
   projects:
+    output: true
+    permalink: /:collection/:categories:output_ext
+  life:
     output: true
     permalink: /:collection/:categories:output_ext
 
