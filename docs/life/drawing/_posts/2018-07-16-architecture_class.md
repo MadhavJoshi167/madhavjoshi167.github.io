@@ -38,7 +38,7 @@ Adding colors would come at a much later stage when I became somewhat familiar w
 ![Home Exterior Bunglow](/life/drawing/assets/img/Architecture/home_exterior_bunglow_color.jpg "Home Exterior Bunglow")
 
 ### Composition
-#### 0. Sketching Practice/
+#### 0. Sketching Practice
 ![Stick Figures](/life/drawing/assets/img/Architecture/sketch_stick_figures.jpg "Stick Figures")
 #### 1. Shading Basic 3D Objects
 ![Shading Practice](/life/drawing/assets/img/Architecture/shading_practice1.jpg "Shading Practice")
